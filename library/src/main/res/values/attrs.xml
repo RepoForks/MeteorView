@@ -1,0 +1,7 @@
+<resources>
+
+    <declare-styleable name="MeteorView">
+        <attr name="corner" format="integer" />
+    </declare-styleable>
+
+</resources>

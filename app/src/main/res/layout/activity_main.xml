@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/re_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/xml_background">
+
+        <ImageView
+            android:id="@+id/img_background_star"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" />
+
+        <com.hoanganhtuan95ptit.library.MeteorView
+            android:id="@+id/img_meteor0"
+            android:layout_width="60dp"
+            android:layout_height="34dp"
+            android:layout_margin="50dp" />
+
+        <com.hoanganhtuan95ptit.library.MeteorView
+            android:id="@+id/img_meteor1"
+            android:layout_width="60dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="100dp" />
+
+        <com.hoanganhtuan95ptit.library.MeteorView
+            android:id="@+id/img_meteor2"
+            android:layout_width="60dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="200dp" />
+
+        <com.hoanganhtuan95ptit.library.MeteorView
+            android:id="@+id/img_meteor3"
+            android:layout_width="60dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="300dp"/>
+
+        <ImageView
+            android:id="@+id/img_background_tree"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" />
+
+
+        <ImageView
+            android:id="@+id/img_background_moon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="100dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" />
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_tent_light" />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_fire_halo" />
+
+        <ImageView
+            android:id="@+id/img_background_fire"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/fram_fire" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/ic_app_name" />
+
+    <FrameLayout
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/xml_background_login_facebook"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/tvStartChat"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/startChat"
+            android:textColor="@color/colorWhile" />
+    </FrameLayout>
+</RelativeLayout>
