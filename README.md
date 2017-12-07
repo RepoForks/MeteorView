@@ -4,7 +4,7 @@ android library MeteorView
 
 # Demo
 
-[<img src="/store/Gif.gif">](https://play.google.com/store/apps/details?id=com.hoanganhtuan01101995.sola_date)
+[<img src="/store/output.gif">](https://play.google.com/store/apps/details?id=com.hoanganhtuan01101995.sola_date)
 
 # Project
 
